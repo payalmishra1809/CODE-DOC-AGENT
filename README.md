@@ -1,4 +1,4 @@
-# 🤖 CodeDoc Agent
+# CodeDoc Agent
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org)
@@ -9,19 +9,19 @@
 
 ---
 
-## ✨ Features
+## Features
 
-- **🔍 Deep Codebase Analysis** — Scans every file, extracts symbols, imports, and code patterns
-- **📚 AI-Powered Documentation** — Generates project overview, per-file docs, API reference, and README using Claude AI
-- **🔧 Smart Refactoring Suggestions** — Detects code smells, circular dependencies, long functions, missing error handling, and more
-- **🗺️ Interactive Dependency Map** — Beautiful D3.js visualization of module relationships with zoom/pan/hover
-- **📊 Code Health Report** — Grades your codebase from A–F based on issue severity
-- **🐙 GitHub Integration** — Analyzes any public GitHub repo directly from its URL
-- **🎨 Beautiful HTML Reports** — Dark-themed, professional output ready to share
+-  Deep Codebase Analysis** — Scans every file, extracts symbols, imports, and code patterns
+-  AI-Powered Documentation** — Generates project overview, per-file docs, API reference, and README using Claude AI
+-  Smart Refactoring Suggestions** — Detects code smells, circular dependencies, long functions, missing error handling, and more
+-  Interactive Dependency Map** — Beautiful D3.js visualization of module relationships with zoom/pan/hover
+-  Code Health Report** — Grades your codebase from A–F based on issue severity
+-  GitHub Integration** — Analyzes any public GitHub repo directly from its URL
+-  Beautiful HTML Reports** — Dark-themed, professional output ready to share
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - **Node.js 18+**
@@ -155,12 +155,12 @@ Create `.codedocrc.json` in your project root:
 
 ---
 
-## 📁 Output Structure
+## Output Structure
 
 ```
 codedoc-output/
-├── index.html                  # 🎨 Main interactive report
-├── dependency-map.html         # 🗺️ Interactive D3 dependency visualization
+├── index.html                  # Main interactive report
+├── dependency-map.html         # Interactive D3 dependency visualization
 ├── dep-graph.json              # Raw dependency graph data
 ├── analysis.json               # Full structured analysis data
 ├── refactoring-report.json     # Refactoring data (JSON)
@@ -175,7 +175,7 @@ codedoc-output/
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 codedoc-agent/
@@ -202,7 +202,7 @@ codedoc-agent/
 
 ---
 
-## 🌍 Supported Languages
+## Supported Languages
 
 | Language | Docs | Refactor | Imports |
 |----------|------|----------|---------|
@@ -219,7 +219,7 @@ codedoc-agent/
 
 ---
 
-## 🔒 Privacy
+## Privacy
 
 - Your code is sent to Anthropic's API for AI analysis. Review [Anthropic's privacy policy](https://www.anthropic.com/privacy).
 - Use `--no-refactor` and generate docs only if you want to minimize data sent.
@@ -227,7 +227,7 @@ codedoc-agent/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
 2. Create a feature branch: `git checkout -b feature/my-feature`
@@ -235,8 +235,4 @@ codedoc-agent/
 4. Push: `git push origin feature/my-feature`
 5. Open a Pull Request
 
----
 
-## 📄 License
-
-MIT © 2024 CodeDoc Agent
