@@ -1,0 +1,10 @@
+{
+  "output": "./codedoc-output",
+  "format": "markdown",
+  "model": "claude-sonnet-4-6",
+  "depth": 10,
+  "ignore": "node_modules,dist,build,.next,coverage,*.min.js,*.min.css,package-lock.json,yarn.lock",
+  "refactor": true,
+  "deps": true,
+  "severity": "low"
+}

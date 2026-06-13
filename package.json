@@ -1,0 +1,42 @@
+{
+  "name": "codedoc-agent",
+  "version": "1.0.0",
+  "description": "Automated Codebase Documentation & Refactoring Agent powered by Claude AI",
+  "main": "src/cli/index.js",
+  "bin": {
+    "codedoc": "./src/cli/index.js"
+  },
+  "scripts": {
+    "start": "node src/cli/index.js",
+    "test": "jest",
+    "lint": "eslint src/",
+    "dev": "node src/cli/index.js"
+  },
+  "keywords": [
+    "documentation",
+    "refactoring",
+    "code-analysis",
+    "ai",
+    "claude",
+    "anthropic",
+    "cli",
+    "codebase",
+    "developer-tools"
+  ],
+  "author": "CodeDoc Agent",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "micromatch": "^4.0.7",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
