@@ -1,9 +1,5 @@
 # CodeDoc Agent
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org)
-[![Powered by Claude](https://img.shields.io/badge/Powered%20by-Claude%20AI-orange.svg)](https://anthropic.com)
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](package.json)
 
 > **Automated Codebase Documentation & Refactoring Agent** — A CLI tool that reads an entire GitHub repository or local codebase, maps dependency trees, and uses Claude AI to generate beautiful documentation, refactoring reports, and interactive dependency visualizations.
 
