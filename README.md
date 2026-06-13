@@ -46,7 +46,7 @@ Add to `~/.bashrc` or `~/.zshrc` to persist.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Analyze a GitHub repo
 ```bash
